@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex de la Orden Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="navlinks">Home</a>
+            <a href="bio.html" class="navlinks">Biography</a>
+            <a href="portfolio.html" class="navlinks">Project gallery</a>
+            <a href="contact.html" class="navlinks">Contact</a>
+        </nav>
+
+        <div id="adorno">contact.html</div>
+    </header>
+    <section id="contact">
+        <div>
+            <h2>Let's make something great!</h2>
+            <p>Fill out this form and tell me what your idea is. I'll reach you out if your idea fits my workstyle!</p>
+        </div>
+        <form>
+            <h5>Your data:</h5>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" maxlength="30" placeholder="Here goes your name!" required>
+
+            <label for="lname">Last-name:</label>
+            <input type="text" id="lname" name="lname" maxlength="30" placeholder="Here goes your last-name!" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Here goes your email" required>
+
+            <div>
+                <h5>Work area:</h5>
+                <input type="radio" id="front_end" name="front_end" value="front_end">
+                <label for="front_end">Front-end</label>
+                <input type="radio" id="back_end" name="work_area" value="back_end">
+                <label for="front_end">Back-end</label>
+            </div>
+
+            <h5>Tell me about your project:</h5>
+            <textarea id="textproject" name="comment" rows="8" cols="50" placeholder="Your project goes here!"></textarea>
+            <input type="checkbox" id="accept" name="accept" value="">
+            <label for="accept">I accept the terms of use.</label>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <main>
+        
+    </main>
+    <footer>
+        <div>
+            <h4>Links:</h4>
+            <p><a href="">My Github profile</a></p>
+            <p><a href="#">Twitter</a></p>
+            <p><a href="#">Instagram</a></p>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <p>Contact number: <a href="#">914455445</a></p>
+            <p>Email: <a href="#">alexdelaoc@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
